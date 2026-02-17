@@ -20,8 +20,15 @@
   },
   "preview": {
     "mainAlt": "Janela principal do falavra mostrando transcrição",
-    "progressAlt": "Visualização do progresso da transcrição",
-    "libraryAlt": "Biblioteca de transcrições com busca"
+    "progressAlt": "Transcrição em lote em andamento",
+    "libraryAlt": "Biblioteca com pastas, tags e busca",
+    "settingsAlt": "Configurações de modelo de IA e exportação",
+    "transcriptAlt": "Transcrição com diarização de falantes",
+    "captionMain": "Cole & Transcreva",
+    "captionProgress": "Processamento em Lote",
+    "captionLibrary": "Biblioteca & Organização",
+    "captionSettings": "Modelos de IA",
+    "captionTranscript": "Diarização de Falantes"
   },
   "features": {
     "title": "Tudo Que Você Precisa",

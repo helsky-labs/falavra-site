@@ -20,8 +20,15 @@
   },
   "preview": {
     "mainAlt": "falavra main window showing transcription",
-    "progressAlt": "Transcription progress view",
-    "libraryAlt": "Transcription library with search"
+    "progressAlt": "Batch transcription in progress",
+    "libraryAlt": "Library with folders, tags, and search",
+    "settingsAlt": "AI model and export settings",
+    "transcriptAlt": "Transcript with speaker diarization",
+    "captionMain": "Paste & Transcribe",
+    "captionProgress": "Batch Processing",
+    "captionLibrary": "Library & Organization",
+    "captionSettings": "AI Model Settings",
+    "captionTranscript": "Speaker Diarization"
   },
   "features": {
     "title": "Everything You Need",
