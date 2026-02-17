@@ -1,0 +1,457 @@
+{
+  "nav": {
+    "pricing": "Preços",
+    "support": "Suporte",
+    "getPro": "Obter Pro",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "badge": "Disponível Agora",
+    "title": "Transcreva Vídeos do YouTube",
+    "titleHighlight": "Localmente",
+    "titleEnd": "com IA",
+    "description": "Cole uma URL do YouTube, escolha um modelo Whisper e obtenha transcrições precisas em 99+ idiomas. Sem nuvem, sem assinaturas, nenhum dado sai da sua máquina.",
+    "downloadButton": "Baixar Grátis",
+    "proButton": "Obter Pro",
+    "proHint": "Versão gratuita disponível com limites diários",
+    "requirements": "macOS 11+ necessário",
+    "requirementsWindows": "Windows 10+ necessário"
+  },
+  "preview": {
+    "mainAlt": "Janela principal do falavra mostrando transcrição",
+    "progressAlt": "Visualização do progresso da transcrição",
+    "libraryAlt": "Biblioteca de transcrições com busca"
+  },
+  "features": {
+    "title": "Tudo Que Você Precisa",
+    "description": "Um kit completo de transcrição local para vídeos do YouTube — alimentado por Whisper AI, construído para privacidade.",
+    "popular": "Popular",
+    "new": "Novo",
+    "pro": "Pro",
+    "items": {
+      "localAI": {
+        "title": "Whisper AI Local",
+        "description": "Alimentado por sherpa-onnx, roda inteiramente na sua máquina. Sem necessidade de internet para transcrição."
+      },
+      "languages": {
+        "title": "99+ Idiomas",
+        "description": "Whisper suporta mais de 99 idiomas com detecção automática. Transcreva vídeos do mundo todo."
+      },
+      "youtube": {
+        "title": "Integração YouTube",
+        "description": "Cole qualquer URL do YouTube e o falavra baixa o áudio automaticamente. Sem manipulação manual de arquivos."
+      },
+      "exports": {
+        "title": "Formatos de Exportação",
+        "description": "Exporte transcrições como Markdown, texto puro, legendas SRT ou VTT. Pronto para qualquer fluxo de trabalho."
+      },
+      "search": {
+        "title": "Busca Full-Text",
+        "description": "Pesquise em todas as suas transcrições instantaneamente com SQLite FTS5. Encontre qualquer palavra, qualquer vídeo."
+      },
+      "queue": {
+        "title": "Fila de Trabalho",
+        "description": "Enfileire múltiplos vídeos e deixe o falavra processá-los um por um. Perfeito para transcrição em lote."
+      },
+      "models": {
+        "title": "Seleção de Modelo",
+        "description": "Escolha entre modelos tiny e large-v3. Equilibre velocidade e precisão conforme suas necessidades."
+      },
+      "privacy": {
+        "title": "100% Privado",
+        "description": "Tudo roda no seu dispositivo. Nenhum áudio, nenhuma transcrição, nenhum dado sai da sua máquina."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Como Funciona",
+    "description": "Três passos simples para transcrever qualquer vídeo do YouTube.",
+    "steps": {
+      "paste": {
+        "title": "Cole a URL do YouTube",
+        "description": "Copie qualquer URL de vídeo do YouTube e cole no falavra. O áudio é baixado automaticamente."
+      },
+      "choose": {
+        "title": "Escolha o Modelo",
+        "description": "Selecione um modelo Whisper de tiny (rápido) a large-v3 (mais preciso). Usuários gratuitos usam o modelo base."
+      },
+      "get": {
+        "title": "Receba a Transcrição",
+        "description": "O falavra transcreve o áudio localmente e mostra o resultado. Exporte como Markdown, TXT, SRT ou VTT."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Por que falavra?",
+    "subtitle": "Veja como o falavra se compara a serviços de transcrição na nuvem.",
+    "falavraLabel": "falavra",
+    "othersLabel": "Serviços na nuvem",
+    "privacyFirst": {
+      "title": "Privacidade em Primeiro Lugar",
+      "falavra": "Processamento 100% local. Seu áudio e transcrições nunca saem do seu dispositivo.",
+      "others": "Áudio enviado para servidores remotos. Seu conteúdo é processado e armazenado na nuvem."
+    },
+    "oneTimePrice": {
+      "title": "Compra Única",
+      "falavra": "Pague uma vez, tenha para sempre. Sem mensalidades, sem limites de uso no Pro.",
+      "others": "Assinaturas mensais a partir de R$50-150/mês. Preço por minuto que acumula rápido."
+    },
+    "youtubeOptimized": {
+      "title": "Otimizado para YouTube",
+      "falavra": "Cole uma URL, receba a transcrição. Construído especificamente para transcrição de vídeos do YouTube.",
+      "others": "Ferramentas genéricas que exigem upload manual de arquivo de áudio."
+    },
+    "offlineCapable": {
+      "title": "Funciona Offline",
+      "falavra": "Após o download inicial do modelo, funciona completamente offline. Perfeito para viagens ou redes restritas.",
+      "others": "Requer conexão constante com a internet. Sem capacidade offline."
+    },
+    "ctaText": "Pronto para transcrever de forma inteligente?",
+    "ctaButton": "Ver Preços"
+  },
+  "privacy": {
+    "title": "Seus Dados Ficam Com Você",
+    "description": "O falavra processa tudo localmente no seu dispositivo usando Whisper AI. Nenhum áudio, nenhuma transcrição, nenhum dado pessoal toca nossos servidores.",
+    "noInternet": "Sem internet para transcrição",
+    "noAccount": "Sem necessidade de conta",
+    "localProcessing": "Processamento 100% local"
+  },
+  "testimonials": {
+    "title": "O Que os Usuários Dizem",
+    "subtitle": "Junte-se aos usuários que confiam no falavra para transcrição de vídeos do YouTube.",
+    "t1": {
+      "quote": "Eu precisava de transcrições de vídeos de pesquisa em múltiplos idiomas. O falavra lida com tudo localmente sem eu me preocupar com privacidade.",
+      "name": "Alex Chen",
+      "role": "Pesquisador PhD",
+      "initials": "AC"
+    },
+    "t2": {
+      "quote": "O recurso de fila em lote é revolucionário. Eu enfileio 20 aulas e volto para encontrar tudo transcrito perfeitamente.",
+      "name": "Sarah Kim",
+      "role": "Criadora de Conteúdo",
+      "initials": "SK"
+    },
+    "t3": {
+      "quote": "Poder pesquisar em todas as minhas transcrições instantaneamente me economizou horas de reassistir vídeos. A exportação SRT é ótima para legendas.",
+      "name": "Marcus Rivera",
+      "role": "Editor de Vídeo",
+      "initials": "MR"
+    }
+  },
+  "homePricing": {
+    "title": "Preço Simples",
+    "subtitle": "Comece grátis com limites diários, ou desbloqueie tudo com uma compra única do Pro.",
+    "free": {
+      "name": "Grátis",
+      "price": "R$0",
+      "priceLabel": "para sempre",
+      "feature1": "Transcrições diárias limitadas",
+      "feature2": "Limite de duração por vídeo",
+      "feature3": "Modelo Whisper base"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "R$99",
+      "priceLabel": "compra única",
+      "badge": "Melhor Valor",
+      "feature1": "Transcrições ilimitadas",
+      "feature2": "Sem limite de duração",
+      "feature3": "Todos os modelos Whisper (tiny → large-v3)"
+    }
+  },
+  "cta": {
+    "title": "Comece a Transcrever Hoje",
+    "description": "Baixe o falavra e transcreva seu primeiro vídeo do YouTube em menos de um minuto.",
+    "proButton": "Obter Pro",
+    "downloadButton": "Baixar Grátis",
+    "version": "macOS 11+",
+    "versionWindows": "Windows 10+"
+  },
+  "newsletter": {
+    "title": "Fique Atualizado",
+    "description": "Receba notificações sobre novos recursos, atualizações de modelos e dicas para melhores transcrições.",
+    "placeholder": "voce@email.com",
+    "button": "Inscrever-se",
+    "submitting": "Inscrevendo...",
+    "success": "Obrigado por se inscrever!",
+    "error": "Algo deu errado. Tente novamente."
+  },
+  "footer": {
+    "builtBy": "Feito por",
+    "pricing": "Preços",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "support": "Suporte",
+    "copyright": "Todos os direitos reservados."
+  },
+  "pricingPage": {
+    "title": "Preços",
+    "description": "Preços simples e transparentes para o falavra. Comece grátis ou vá Pro.",
+    "ogTitle": "Preços do falavra — Planos Grátis & Pro",
+    "hero": {
+      "titleStart": "Escolha Seu ",
+      "titleHighlight": "Plano",
+      "titleEnd": "",
+      "subtitle": "Comece com o plano gratuito ou desbloqueie tudo com uma compra única do Pro. Sem assinaturas."
+    },
+    "free": {
+      "name": "Grátis",
+      "description": "Comece com recursos básicos de transcrição.",
+      "priceLabel": "para sempre",
+      "downloadButton": "Baixar Grátis",
+      "feature1": "Até 3 transcrições por dia",
+      "feature2": "Vídeos de até 15 minutos",
+      "feature3": "Modelo Whisper base",
+      "feature4": "Exportação Markdown & TXT",
+      "feature5": "Busca full-text",
+      "feature6": "Todos os modelos Whisper",
+      "feature7": "Transcrições ilimitadas",
+      "feature8": "Exportação de legendas SRT & VTT"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Tudo do Grátis, mais poder ilimitado.",
+      "badge": "Mais Popular",
+      "priceLabel": "compra única",
+      "checkoutButton": "Obter Licença Pro — R$99",
+      "checkoutLoading": "Carregando...",
+      "feature1": "Transcrições diárias ilimitadas",
+      "feature2": "Sem limite de duração",
+      "feature3": "Todos os modelos Whisper (tiny → large-v3)",
+      "feature4": "Exportação de legendas SRT & VTT",
+      "feature5": "Processamento em lote prioritário",
+      "feature6": "3 ativações de dispositivo",
+      "feature7": "Todas as atualizações v1.x incluídas",
+      "trustSecure": "Pagamento seguro via Stripe",
+      "trustGuarantee": "Garantia de reembolso de 14 dias",
+      "trustOneTime": "Compra única, sem assinatura"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "q1": {
+        "question": "O falavra é realmente gratuito?",
+        "answer": "Sim! O plano gratuito permite transcrever até 3 vídeos por dia com limite de 15 minutos usando o modelo Whisper base. Sem necessidade de cartão de crédito."
+      },
+      "q2": {
+        "question": "O que eu ganho com o Pro?",
+        "answer": "O Pro desbloqueia transcrições ilimitadas, sem limite de duração, todos os tamanhos de modelo Whisper (tiny até large-v3), exportação de legendas SRT/VTT e processamento em lote prioritário."
+      },
+      "q3": {
+        "question": "É uma compra única?",
+        "answer": "Sim. Pague uma vez e tenha o falavra Pro para sempre na versão atual (v1.x). Sem assinaturas, sem cobranças recorrentes."
+      },
+      "q4": {
+        "question": "Em quantos dispositivos posso usar?",
+        "answer": "Uma única licença Pro pode ser ativada em até 3 dispositivos (macOS, Windows ou uma combinação)."
+      },
+      "q5": {
+        "question": "E as atualizações futuras?",
+        "answer": "Todas as atualizações dentro da v1.x estão incluídas gratuitamente. Se uma nova versão principal (v2.0) for lançada, usuários Pro existentes terão um desconto significativo."
+      },
+      "q6": {
+        "question": "Existe política de reembolso?",
+        "answer": "Sim. Oferecemos garantia de reembolso de 14 dias. Se não estiver satisfeito, entre em contato com support@falavra.com para reembolso integral."
+      },
+      "q7": {
+        "question": "O falavra precisa de internet?",
+        "answer": "Apenas para baixar o áudio do YouTube e o download inicial do modelo Whisper. A transcrição em si é 100% offline."
+      },
+      "q8": {
+        "question": "Quais idiomas são suportados?",
+        "answer": "O Whisper suporta 99+ idiomas com detecção automática. Quanto maior o modelo, melhor a precisão para idiomas menos comuns."
+      },
+      "q9": {
+        "question": "Quais plataformas são suportadas?",
+        "answer": "O falavra roda no macOS 11+ e Windows 10+."
+      },
+      "q10": {
+        "question": "Posso exportar legendas?",
+        "answer": "Usuários Pro podem exportar para formatos de legenda SRT e VTT. Usuários gratuitos podem exportar para Markdown e texto puro."
+      },
+      "q11": {
+        "question": "Quão precisa é a transcrição?",
+        "answer": "A precisão depende do modelo Whisper selecionado e da qualidade do áudio. O modelo large-v3 (Pro) oferece precisão de ponta comparável a serviços comerciais."
+      },
+      "q12": {
+        "question": "Como ativo minha licença?",
+        "answer": "Após a compra, você receberá uma chave de licença por email. Abra o falavra, vá em Configurações → Inserir Chave de Licença, cole sua chave e clique em Ativar."
+      },
+      "q13": {
+        "question": "Perdi minha chave de licença. O que faço?",
+        "answer": "Visite a página de Restaurar Licença no nosso site e insira o email usado na compra. Reenviaremos sua chave imediatamente."
+      }
+    }
+  },
+  "successPage": {
+    "title": "Obrigado!",
+    "description": "Sua compra do falavra Pro foi concluída com sucesso.",
+    "emailNotice": "Sua chave de licença foi enviada para seu email de",
+    "emailSender": "noreply@falavra.com",
+    "activation": {
+      "title": "Como Ativar",
+      "step1": "Baixe e instale o falavra se ainda não o fez",
+      "step2Settings": "Configurações",
+      "step2Action": "Inserir Chave de Licença",
+      "step3": "Cole sua chave de licença e clique em Ativar"
+    },
+    "downloadButton": "Baixar falavra",
+    "noEmail": "Não recebeu o email?",
+    "restoreLink": "Restaurar sua licença",
+    "helpLink": "Contatar suporte"
+  },
+  "supportPage": {
+    "title": "Suporte",
+    "description": "Obtenha ajuda com o falavra — problemas de transcrição, perguntas sobre licença e mais.",
+    "subtitle": "Estamos aqui para ajudar.",
+    "contact": {
+      "email": {
+        "title": "Suporte por Email"
+      },
+      "github": {
+        "title": "Reportar um Bug",
+        "description": "Envie um relatório detalhado de bug por email"
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "common": {
+        "title": "Problemas Comuns",
+        "modelDownload": {
+          "q": "Como baixo os modelos Whisper?",
+          "a": "Abra o falavra e vá em Configurações → Modelos. Selecione o modelo desejado e clique em Baixar. Os modelos são baixados uma vez e armazenados localmente."
+        },
+        "accuracy": {
+          "q": "A transcrição não está muito precisa. Como posso melhorar?",
+          "a": "Tente usar um modelo Whisper maior (recurso Pro). O modelo large-v3 oferece a melhor precisão. Além disso, a qualidade do áudio impacta significativamente os resultados."
+        },
+        "formats": {
+          "q": "Quais formatos de exportação estão disponíveis?",
+          "a": "Grátis: Markdown (.md) e texto puro (.txt). Pro: Também inclui formatos de legenda SRT e VTT."
+        },
+        "offline": {
+          "q": "Posso usar o falavra completamente offline?",
+          "a": "A transcrição funciona offline após o download inicial do modelo. Porém, baixar o áudio do YouTube requer conexão com internet."
+        }
+      },
+      "license": {
+        "title": "Licença e Pagamento",
+        "free": {
+          "q": "Quais são os limites do plano gratuito?",
+          "a": "Usuários gratuitos podem transcrever até 3 vídeos por dia com duração máxima de 15 minutos por vídeo, usando o modelo Whisper base."
+        },
+        "activate": {
+          "q": "Como ativo minha licença Pro?",
+          "a": "Vá em Configurações → Inserir Chave de Licença no falavra. Cole a chave do email de compra e clique em Ativar."
+        },
+        "machines": {
+          "q": "Em quantas máquinas posso usar?",
+          "a": "Sua licença Pro funciona em até 3 dispositivos. Você pode desativar um dispositivo nas Configurações para liberar uma vaga."
+        },
+        "lost": {
+          "q": "Perdi minha chave de licença. Como recupero?",
+          "a": "Visite falavra.com/restore e insira o email usado na compra. Sua chave será reenviada imediatamente."
+        },
+        "upgrade": {
+          "q": "Vou receber atualizações gratuitas?",
+          "a": "Todas as atualizações v1.x estão incluídas na licença Pro. Atualizações de versão principal (v2.0+) podem exigir upgrade pago com desconto."
+        }
+      },
+      "technical": {
+        "title": "Técnico",
+        "requirements": {
+          "q": "Quais são os requisitos do sistema?",
+          "a": "macOS 11 (Big Sur) ou posterior, ou Windows 10 ou posterior. Pelo menos 4GB de RAM recomendado. Armazenamento varia por modelo (75MB a 3GB)."
+        },
+        "storage": {
+          "q": "Quanto espaço em disco preciso?",
+          "a": "O app em si é pequeno. Os modelos Whisper vão de 75MB (tiny) a 3GB (large-v3). Transcrições e áudio baixado usam espaço adicional."
+        },
+        "privacy": {
+          "q": "Meus dados são privados?",
+          "a": "Sim. Todo o processamento de transcrição acontece localmente na sua máquina. Nenhum dado de áudio ou texto é enviado para nenhum servidor."
+        },
+        "youtube": {
+          "q": "O falavra suporta qualquer URL de vídeo?",
+          "a": "Atualmente o falavra é otimizado para URLs do YouTube. Suporte para plataformas adicionais pode ser adicionado em atualizações futuras."
+        }
+      }
+    },
+    "restore": {
+      "title": "Perdeu Sua Chave de Licença?",
+      "text": "Se você comprou o falavra Pro e não encontra sua chave, podemos reenviar para o email de compra.",
+      "button": "Restaurar Licença"
+    }
+  },
+  "privacyPage": {
+    "title": "Política de Privacidade",
+    "description": "Política de Privacidade do falavra — como lidamos com seus dados.",
+    "lastUpdated": "Última atualização: Fevereiro 2026",
+    "overview": {
+      "title": "Visão Geral",
+      "text": "O falavra é um aplicativo desktop projetado com privacidade como princípio central. Todo o processamento de transcrição acontece localmente no seu dispositivo usando Whisper AI (sherpa-onnx). Não coletamos, transmitimos ou armazenamos seus arquivos de áudio ou resultados de transcrição."
+    },
+    "audioProcessing": {
+      "title": "Processamento de Áudio e Vídeo",
+      "text": "O falavra baixa o áudio do YouTube para sua máquina local e processa inteiramente no dispositivo:",
+      "items": {
+        "noUpload": "Arquivos de áudio nunca são enviados para nossos servidores",
+        "noStorage": "Transcrições são armazenadas apenas no seu dispositivo local",
+        "noAccess": "Não temos acesso ao seu conteúdo em nenhum momento"
+      }
+    },
+    "dataCollected": {
+      "title": "Dados que Coletamos",
+      "purchase": {
+        "title": "Informações de Compra",
+        "text": "Quando você compra uma licença Pro, seu endereço de email e informações de pagamento são processados pelo Stripe. Armazenamos seu email e chave de licença para gerenciar sua licença."
+      },
+      "license": {
+        "title": "Validação de Licença",
+        "text": "Ao ativar sua licença, o falavra envia sua chave e um identificador de dispositivo para verificar a ativação. Armazenamos o ID do dispositivo para gerenciar seu limite de 3 dispositivos."
+      },
+      "telemetry": {
+        "title": "Analytics do Site",
+        "text": "Nosso site usa Umami, uma ferramenta de analytics focada em privacidade:",
+        "items": {
+          "events": "Visualizações de página e eventos de clique anônimos",
+          "noPersonal": "Nenhum dado pessoal ou cookies são usados",
+          "optOut": "Você pode bloquear analytics com qualquer bloqueador de anúncios"
+        }
+      }
+    },
+    "thirdParties": {
+      "title": "Serviços de Terceiros",
+      "stripe": "Processamento de pagamentos para compras de licença Pro",
+      "resend": "Entrega de emails transacionais (chaves de licença, suporte)",
+      "supabase": "Armazenamento de chaves de licença e assinantes da newsletter"
+    },
+    "noTracking": {
+      "title": "Sem Rastreamento no App",
+      "text": "O aplicativo desktop falavra não inclui nenhum analytics, telemetria ou rastreamento. Ele não faz conexões automáticas, verifica atualizações sem seu consentimento ou envia dados sobre seu uso."
+    },
+    "retention": {
+      "title": "Retenção de Dados",
+      "text": "Informações de licença são mantidas enquanto sua licença estiver ativa. Assinaturas da newsletter podem ser canceladas a qualquer momento entrando em contato com o suporte. Não vendemos ou compartilhamos seus dados com terceiros."
+    },
+    "contact": {
+      "title": "Contato",
+      "text": "Para questões relacionadas à privacidade, entre em contato em"
+    }
+  },
+  "restorePage": {
+    "title": "Restaurar Sua Licença",
+    "subtitle": "Insira o email usado para comprar o falavra Pro e reenviaremos sua chave de licença.",
+    "emailLabel": "Email de Compra",
+    "emailPlaceholder": "voce@email.com",
+    "submit": "Enviar Chave de Licença",
+    "submitting": "Enviando...",
+    "error": "Algo deu errado. Tente novamente.",
+    "hint": "Se uma licença existir para este email, você a receberá em poucos minutos.",
+    "success": {
+      "title": "Verifique Seu Email",
+      "text": "Se uma licença existir para esse email, enviamos sua chave. Verifique sua caixa de entrada (e pasta de spam).",
+      "backHome": "Voltar ao Início"
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "support": "Support",
+    "getPro": "Get Pro",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Now Available",
+    "title": "Transcribe YouTube Videos",
+    "titleHighlight": "Locally",
+    "titleEnd": "with AI",
+    "description": "Paste a YouTube URL, choose a Whisper model, and get accurate transcriptions in 99+ languages. No cloud, no subscriptions, no data ever leaves your machine.",
+    "downloadButton": "Download Free",
+    "proButton": "Get Pro",
+    "proHint": "Free tier available with daily limits",
+    "requirements": "macOS 11+ required",
+    "requirementsWindows": "Windows 10+ required"
+  },
+  "preview": {
+    "mainAlt": "falavra main window showing transcription",
+    "progressAlt": "Transcription progress view",
+    "libraryAlt": "Transcription library with search"
+  },
+  "features": {
+    "title": "Everything You Need",
+    "description": "A complete local transcription toolkit for YouTube videos — powered by Whisper AI, built for privacy.",
+    "popular": "Popular",
+    "new": "New",
+    "pro": "Pro",
+    "items": {
+      "localAI": {
+        "title": "Local Whisper AI",
+        "description": "Powered by sherpa-onnx, runs entirely on your machine. No internet required for transcription."
+      },
+      "languages": {
+        "title": "99+ Languages",
+        "description": "Whisper supports over 99 languages with automatic detection. Transcribe videos from around the world."
+      },
+      "youtube": {
+        "title": "YouTube Integration",
+        "description": "Paste any YouTube URL and falavra downloads the audio automatically. No manual file handling needed."
+      },
+      "exports": {
+        "title": "Export Formats",
+        "description": "Export transcriptions as Markdown, plain text, SRT subtitles, or VTT. Ready for any workflow."
+      },
+      "search": {
+        "title": "Full-Text Search",
+        "description": "Search across all your transcriptions instantly with SQLite FTS5. Find any word, any video."
+      },
+      "queue": {
+        "title": "Job Queue",
+        "description": "Queue up multiple videos and let falavra process them one by one. Perfect for batch transcription."
+      },
+      "models": {
+        "title": "Model Selection",
+        "description": "Choose from tiny to large-v3 models. Balance speed and accuracy based on your needs."
+      },
+      "privacy": {
+        "title": "100% Private",
+        "description": "Everything runs on your device. No audio, no transcriptions, no data ever leaves your machine."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Three simple steps to transcribe any YouTube video.",
+    "steps": {
+      "paste": {
+        "title": "Paste YouTube URL",
+        "description": "Copy any YouTube video URL and paste it into falavra. The audio is downloaded automatically."
+      },
+      "choose": {
+        "title": "Choose Your Model",
+        "description": "Select a Whisper model from tiny (fast) to large-v3 (most accurate). Free users get the base model."
+      },
+      "get": {
+        "title": "Get Your Transcript",
+        "description": "falavra transcribes the audio locally and shows the result. Export as Markdown, TXT, SRT, or VTT."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Why falavra?",
+    "subtitle": "See how falavra compares to cloud-based transcription services.",
+    "falavraLabel": "falavra",
+    "othersLabel": "Cloud services",
+    "privacyFirst": {
+      "title": "Privacy First",
+      "falavra": "100% local processing. Your audio and transcriptions never leave your device.",
+      "others": "Audio uploaded to remote servers. Your content is processed and stored in the cloud."
+    },
+    "oneTimePrice": {
+      "title": "One-Time Purchase",
+      "falavra": "Pay once, own forever. No monthly fees, no usage limits on Pro.",
+      "others": "Monthly subscriptions starting at $10-30/mo. Pay-per-minute pricing adds up fast."
+    },
+    "youtubeOptimized": {
+      "title": "YouTube Optimized",
+      "falavra": "Paste a URL, get a transcript. Built specifically for YouTube video transcription.",
+      "others": "Generic transcription tools that require manual audio file upload."
+    },
+    "offlineCapable": {
+      "title": "Works Offline",
+      "falavra": "After initial model download, works completely offline. Perfect for travel or restricted networks.",
+      "others": "Requires constant internet connection. No offline capability."
+    },
+    "ctaText": "Ready to transcribe smarter?",
+    "ctaButton": "View Pricing"
+  },
+  "privacy": {
+    "title": "Your Data Stays With You",
+    "description": "falavra processes everything locally on your device using Whisper AI. No audio, no transcriptions, no personal data ever touches our servers.",
+    "noInternet": "No internet for transcription",
+    "noAccount": "No account required",
+    "localProcessing": "100% local processing"
+  },
+  "testimonials": {
+    "title": "What Users Say",
+    "subtitle": "Join users who trust falavra for their YouTube transcription needs.",
+    "t1": {
+      "quote": "I needed transcripts for research videos in multiple languages. falavra handles it all locally without me worrying about data privacy.",
+      "name": "Alex Chen",
+      "role": "PhD Researcher",
+      "initials": "AC"
+    },
+    "t2": {
+      "quote": "The batch queue feature is a game changer. I queue up 20 lectures and come back to find everything transcribed perfectly.",
+      "name": "Sarah Kim",
+      "role": "Content Creator",
+      "initials": "SK"
+    },
+    "t3": {
+      "quote": "Being able to search across all my transcriptions instantly saved me hours of rewatching videos. The SRT export is great for subtitles.",
+      "name": "Marcus Rivera",
+      "role": "Video Editor",
+      "initials": "MR"
+    }
+  },
+  "homePricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Start free with daily limits, or unlock everything with a one-time Pro purchase.",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "priceLabel": "forever",
+      "feature1": "Limited daily transcriptions",
+      "feature2": "Duration cap per video",
+      "feature3": "Base Whisper model"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$19.99",
+      "priceLabel": "one-time",
+      "badge": "Best Value",
+      "feature1": "Unlimited transcriptions",
+      "feature2": "No duration limits",
+      "feature3": "All Whisper models (tiny → large-v3)"
+    }
+  },
+  "cta": {
+    "title": "Start Transcribing Today",
+    "description": "Download falavra and transcribe your first YouTube video in under a minute.",
+    "proButton": "Get Pro",
+    "downloadButton": "Download Free",
+    "version": "macOS 11+",
+    "versionWindows": "Windows 10+"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Get notified about new features, model updates, and tips for better transcriptions.",
+    "placeholder": "you@email.com",
+    "button": "Subscribe",
+    "submitting": "Subscribing...",
+    "success": "Thanks for subscribing!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "builtBy": "Built by",
+    "pricing": "Pricing",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support",
+    "copyright": "All rights reserved."
+  },
+  "pricingPage": {
+    "title": "Pricing",
+    "description": "Simple, transparent pricing for falavra. Start free or go Pro.",
+    "ogTitle": "falavra Pricing — Free & Pro Plans",
+    "hero": {
+      "titleStart": "Choose Your ",
+      "titleHighlight": "Plan",
+      "titleEnd": "",
+      "subtitle": "Start with the free tier or unlock everything with a one-time Pro purchase. No subscriptions."
+    },
+    "free": {
+      "name": "Free",
+      "description": "Get started with basic transcription capabilities.",
+      "priceLabel": "forever",
+      "downloadButton": "Download Free",
+      "feature1": "Up to 3 transcriptions per day",
+      "feature2": "Max 15-minute videos",
+      "feature3": "Base Whisper model",
+      "feature4": "Markdown & TXT export",
+      "feature5": "Full-text search",
+      "feature6": "All Whisper models",
+      "feature7": "Unlimited transcriptions",
+      "feature8": "SRT & VTT subtitle export"
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Everything in Free, plus unlimited power.",
+      "badge": "Most Popular",
+      "priceLabel": "one-time purchase",
+      "checkoutButton": "Get Pro License — $19.99",
+      "checkoutLoading": "Loading...",
+      "feature1": "Unlimited daily transcriptions",
+      "feature2": "No duration limits",
+      "feature3": "All Whisper models (tiny → large-v3)",
+      "feature4": "SRT & VTT subtitle export",
+      "feature5": "Priority batch processing",
+      "feature6": "3 device activations",
+      "feature7": "All v1.x updates included",
+      "trustSecure": "Secure payment via Stripe",
+      "trustGuarantee": "14-day money-back guarantee",
+      "trustOneTime": "One-time purchase, no subscription"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "Is falavra really free?",
+        "answer": "Yes! The free tier lets you transcribe up to 3 videos per day with a 15-minute duration cap using the base Whisper model. No credit card required."
+      },
+      "q2": {
+        "question": "What do I get with Pro?",
+        "answer": "Pro unlocks unlimited transcriptions, no duration limits, all Whisper model sizes (tiny through large-v3), SRT/VTT subtitle export, and priority batch processing."
+      },
+      "q3": {
+        "question": "Is it a one-time purchase?",
+        "answer": "Yes. Pay once and own falavra Pro forever for the current major version (v1.x). No subscriptions, no recurring charges."
+      },
+      "q4": {
+        "question": "How many devices can I use?",
+        "answer": "A single Pro license can be activated on up to 3 devices (macOS, Windows, or a mix)."
+      },
+      "q5": {
+        "question": "What about future updates?",
+        "answer": "All updates within v1.x are included free. If a major new version (v2.0) is released, existing Pro users will get a significant upgrade discount."
+      },
+      "q6": {
+        "question": "Is there a refund policy?",
+        "answer": "Yes. We offer a 14-day money-back guarantee. If you're not satisfied, contact support@falavra.com for a full refund."
+      },
+      "q7": {
+        "question": "Does falavra need internet?",
+        "answer": "Only for downloading YouTube audio and the initial Whisper model download. Transcription itself is 100% offline."
+      },
+      "q8": {
+        "question": "What languages are supported?",
+        "answer": "Whisper supports 99+ languages with automatic language detection. The larger the model, the better the accuracy for less common languages."
+      },
+      "q9": {
+        "question": "What platforms are supported?",
+        "answer": "falavra runs on macOS 11+ and Windows 10+."
+      },
+      "q10": {
+        "question": "Can I export subtitles?",
+        "answer": "Pro users can export to SRT and VTT subtitle formats. Free users can export to Markdown and plain text."
+      },
+      "q11": {
+        "question": "How accurate is the transcription?",
+        "answer": "Accuracy depends on the Whisper model selected and audio quality. The large-v3 model (Pro) delivers state-of-the-art accuracy comparable to commercial services."
+      },
+      "q12": {
+        "question": "How do I activate my license?",
+        "answer": "After purchase, you'll receive a license key via email. Open falavra, go to Settings → Enter License Key, paste your key and click Activate."
+      },
+      "q13": {
+        "question": "I lost my license key. What do I do?",
+        "answer": "Visit the Restore License page on our website and enter your purchase email. We'll resend your license key immediately."
+      }
+    }
+  },
+  "successPage": {
+    "title": "Thank You!",
+    "description": "Your falavra Pro purchase was successful.",
+    "emailNotice": "Your license key has been sent to your email from",
+    "emailSender": "noreply@falavra.com",
+    "activation": {
+      "title": "How to Activate",
+      "step1": "Download and install falavra if you haven't already",
+      "step2Settings": "Settings",
+      "step2Action": "Enter License Key",
+      "step3": "Paste your license key and click Activate"
+    },
+    "downloadButton": "Download falavra",
+    "noEmail": "Didn't receive the email?",
+    "restoreLink": "Restore your license",
+    "helpLink": "Contact support"
+  },
+  "supportPage": {
+    "title": "Support",
+    "description": "Get help with falavra — transcription issues, license questions, and more.",
+    "subtitle": "We're here to help.",
+    "contact": {
+      "email": {
+        "title": "Email Support"
+      },
+      "github": {
+        "title": "Report a Bug",
+        "description": "Send a detailed bug report via email"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "common": {
+        "title": "Common Issues",
+        "modelDownload": {
+          "q": "How do I download Whisper models?",
+          "a": "Open falavra and go to Settings → Models. Select the model you want and click Download. Models are downloaded once and cached locally."
+        },
+        "accuracy": {
+          "q": "The transcription isn't very accurate. How can I improve it?",
+          "a": "Try using a larger Whisper model (Pro feature). The large-v3 model provides the best accuracy. Also, audio quality significantly impacts results — clear speech produces better transcriptions."
+        },
+        "formats": {
+          "q": "What export formats are available?",
+          "a": "Free: Markdown (.md) and plain text (.txt). Pro: Also includes SRT and VTT subtitle formats."
+        },
+        "offline": {
+          "q": "Can I use falavra completely offline?",
+          "a": "Transcription works offline after the initial model download. However, downloading YouTube audio requires an internet connection."
+        }
+      },
+      "license": {
+        "title": "License & Billing",
+        "free": {
+          "q": "What are the free tier limits?",
+          "a": "Free users can transcribe up to 3 videos per day with a maximum duration of 15 minutes per video, using the base Whisper model."
+        },
+        "activate": {
+          "q": "How do I activate my Pro license?",
+          "a": "Go to Settings → Enter License Key in falavra. Paste the key from your purchase email and click Activate."
+        },
+        "machines": {
+          "q": "How many machines can I use?",
+          "a": "Your Pro license works on up to 3 devices. You can deactivate a device from Settings to free up a slot."
+        },
+        "lost": {
+          "q": "I lost my license key. How do I recover it?",
+          "a": "Visit falavra.com/restore and enter the email you used during purchase. Your license key will be resent immediately."
+        },
+        "upgrade": {
+          "q": "Will I get free updates?",
+          "a": "All v1.x updates are included with your Pro license. Major version upgrades (v2.0+) may require a paid upgrade at a discount."
+        }
+      },
+      "technical": {
+        "title": "Technical",
+        "requirements": {
+          "q": "What are the system requirements?",
+          "a": "macOS 11 (Big Sur) or later, or Windows 10 or later. At least 4GB RAM recommended. Storage varies by model (75MB to 3GB)."
+        },
+        "storage": {
+          "q": "How much disk space do I need?",
+          "a": "The app itself is small. Whisper models range from 75MB (tiny) to 3GB (large-v3). Transcriptions and downloaded audio use additional space."
+        },
+        "privacy": {
+          "q": "Is my data private?",
+          "a": "Yes. All transcription processing happens locally on your machine. No audio or text data is ever sent to any server."
+        },
+        "youtube": {
+          "q": "Does falavra support any video URL?",
+          "a": "Currently falavra is optimized for YouTube URLs. Support for additional platforms may be added in future updates."
+        }
+      }
+    },
+    "restore": {
+      "title": "Lost Your License Key?",
+      "text": "If you purchased falavra Pro and can't find your license key, we can resend it to your purchase email.",
+      "button": "Restore License"
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy for falavra — how we handle your data.",
+    "lastUpdated": "Last updated: February 2026",
+    "overview": {
+      "title": "Overview",
+      "text": "falavra is a desktop application designed with privacy as a core principle. All transcription processing happens locally on your device using Whisper AI (sherpa-onnx). We do not collect, transmit, or store your audio files or transcription results."
+    },
+    "audioProcessing": {
+      "title": "Audio & Video Processing",
+      "text": "falavra downloads YouTube audio to your local machine and processes it entirely on-device:",
+      "items": {
+        "noUpload": "Audio files are never uploaded to our servers",
+        "noStorage": "Transcriptions are stored only on your local device",
+        "noAccess": "We have no access to your content at any time"
+      }
+    },
+    "dataCollected": {
+      "title": "Data We Collect",
+      "purchase": {
+        "title": "Purchase Information",
+        "text": "When you purchase a Pro license, your email address and payment information are processed by Stripe. We store your email and license key to manage your license."
+      },
+      "license": {
+        "title": "License Validation",
+        "text": "When activating your license, falavra sends your license key and a device identifier to verify activation. We store the device ID to manage your 3-device limit."
+      },
+      "telemetry": {
+        "title": "Website Analytics",
+        "text": "Our website uses Umami, a privacy-focused analytics tool:",
+        "items": {
+          "events": "Anonymous page views and click events",
+          "noPersonal": "No personal data or cookies are used",
+          "optOut": "You can block analytics with any ad blocker"
+        }
+      }
+    },
+    "thirdParties": {
+      "title": "Third-Party Services",
+      "stripe": "Payment processing for Pro license purchases",
+      "resend": "Transactional email delivery (license keys, support)",
+      "supabase": "License key and newsletter subscriber storage"
+    },
+    "noTracking": {
+      "title": "No Tracking in the App",
+      "text": "The falavra desktop application does not include any analytics, telemetry, or tracking. It does not phone home, check for updates without your consent, or send any data about your usage."
+    },
+    "retention": {
+      "title": "Data Retention",
+      "text": "License information is retained as long as your license is active. Newsletter subscriptions can be cancelled at any time by contacting support. We do not sell or share your data with third parties."
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "For privacy-related questions, contact us at"
+    }
+  },
+  "restorePage": {
+    "title": "Restore Your License",
+    "subtitle": "Enter the email you used to purchase falavra Pro and we'll resend your license key.",
+    "emailLabel": "Purchase Email",
+    "emailPlaceholder": "you@email.com",
+    "submit": "Send License Key",
+    "submitting": "Sending...",
+    "error": "Something went wrong. Please try again.",
+    "hint": "If a license exists for this email, you'll receive it within a few minutes.",
+    "success": {
+      "title": "Check Your Email",
+      "text": "If a license exists for that email address, we've sent your key. Check your inbox (and spam folder).",
+      "backHome": "Back to Home"
+    }
+  }
+}
