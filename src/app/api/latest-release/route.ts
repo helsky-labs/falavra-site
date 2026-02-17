@@ -1,17 +1,14 @@
 import { NextResponse } from "next/server";
-import { CURRENT_VERSION, DOWNLOAD_MACOS, DOWNLOAD_WINDOWS } from "@/lib/version";
+import { CURRENT_VERSION, DOWNLOAD_DMG, GITHUB_RELEASE } from "@/lib/version";
 
 export async function GET() {
   return NextResponse.json({
     version: CURRENT_VERSION,
     tagName: `v${CURRENT_VERSION}`,
+    releaseUrl: GITHUB_RELEASE,
     macos: {
-      downloadUrl: DOWNLOAD_MACOS,
-      fileName: `falavra-${CURRENT_VERSION}-macos.dmg`,
-    },
-    windows: {
-      downloadUrl: DOWNLOAD_WINDOWS,
-      fileName: `falavra-${CURRENT_VERSION}-windows-x64.exe`,
+      downloadUrl: DOWNLOAD_DMG,
+      fileName: `falavra-${CURRENT_VERSION}.dmg`,
     },
   });
 }
