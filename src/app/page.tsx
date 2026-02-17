@@ -6,6 +6,7 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { CheckoutButton } from "@/components/ui/CheckoutButton";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { DownloadLink } from "@/components/ui/DownloadLink";
 import { CURRENT_VERSION } from "@/lib/version";
 
 function FeatureIcon({ icon }: { icon: string }) {
@@ -122,15 +123,16 @@ export default async function LandingPage() {
 
           <FadeIn delay={300}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
+              <DownloadLink
                 href="#download"
+                location="hero"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-lg transition-all hover:scale-105 shadow-lg shadow-amber-500/25"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
                 {t("hero.downloadButton")}
-              </a>
+              </DownloadLink>
               <Link
                 href="/pricing"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border-2 border-amber-300 dark:border-amber-700 hover:border-amber-400 dark:hover:border-amber-600 text-amber-600 dark:text-amber-400 font-medium transition-colors"
@@ -534,15 +536,16 @@ export default async function LandingPage() {
               >
                 {t("cta.proButton")}
               </Link>
-              <a
+              <DownloadLink
                 href="#download"
+                location="cta"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 font-medium transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
                 {t("cta.downloadButton")}
-              </a>
+              </DownloadLink>
             </div>
           </FadeIn>
 

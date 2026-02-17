@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/ui/FadeIn";
+import { PurchaseTracker } from "@/components/ui/PurchaseTracker";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
@@ -18,6 +19,7 @@ export default async function SuccessPage() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <PurchaseTracker />
       <Navbar showPricing={false} showGetPro={false} />
 
       <main className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8">

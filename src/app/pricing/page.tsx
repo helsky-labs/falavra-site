@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { CheckoutButton } from "@/components/ui/CheckoutButton";
+import { PricingPageTracker } from "@/components/ui/PricingPageTracker";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { getLocale, getTranslations } from "next-intl/server";
@@ -72,6 +73,7 @@ export default async function PricingPage() {
 
   return (
     <div className="min-h-screen">
+      <PricingPageTracker />
       <Navbar showPricing={false} showGetPro={false} />
 
       {/* Hero */}
