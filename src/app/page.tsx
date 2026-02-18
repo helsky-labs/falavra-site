@@ -124,7 +124,7 @@ export default async function LandingPage() {
           <FadeIn delay={300}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <DownloadLink
-                href="#download"
+
                 location="hero"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-semibold text-lg transition-all hover:scale-105 shadow-lg shadow-amber-500/25"
               >
@@ -470,7 +470,7 @@ export default async function LandingPage() {
                 </ul>
                 <div className="mt-8">
                   <a
-                    href="#download"
+    
                     className="block w-full text-center py-3 px-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 font-semibold transition-colors"
                   >
                     {t("cta.downloadButton")}
@@ -537,7 +537,7 @@ export default async function LandingPage() {
                 {t("cta.proButton")}
               </Link>
               <DownloadLink
-                href="#download"
+
                 location="cta"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 font-medium transition-colors"
               >
