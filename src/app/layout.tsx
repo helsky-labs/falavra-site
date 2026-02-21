@@ -104,7 +104,7 @@ export default async function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-slate-50 dark:bg-navy-900 text-slate-900 dark:text-slate-100`}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>{children}</ThemeProvider>

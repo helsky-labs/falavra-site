@@ -19,7 +19,7 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
   const closeMenu = () => setIsOpen(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800">
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-navy-900/80 border-b border-slate-200 dark:border-navy-700">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -47,7 +47,7 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
             {showGetPro && (
               <Link
                 href="/pricing"
-                className="bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors active:scale-95"
+                className="bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 text-white text-sm font-medium px-4 py-2 rounded-full transition-all active:scale-95"
               >
                 {t('getPro')}
               </Link>
@@ -59,7 +59,7 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
           {/* Mobile hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95"
+            className="sm:hidden flex items-center justify-center min-h-[44px] min-w-[44px] rounded-lg text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors active:scale-95"
             aria-label={isOpen ? t('closeMenu') : t('openMenu')}
             aria-expanded={isOpen}
           >
@@ -78,13 +78,13 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="sm:hidden border-t border-slate-200 dark:border-slate-800 bg-slate-50/95 dark:bg-slate-900/95 backdrop-blur-md">
+        <div className="sm:hidden border-t border-slate-200 dark:border-navy-700 bg-slate-50/95 dark:bg-navy-900/95 backdrop-blur-md">
           <div className="px-4 py-4 space-y-1">
             {showPricing && (
               <Link
                 href="/pricing"
                 onClick={closeMenu}
-                className="flex items-center min-h-[44px] px-3 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95"
+                className="flex items-center min-h-[44px] px-3 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors active:scale-95"
               >
                 {t('pricing')}
               </Link>
@@ -92,7 +92,7 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
             <Link
               href="/support"
               onClick={closeMenu}
-              className="flex items-center min-h-[44px] px-3 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors active:scale-95"
+              className="flex items-center min-h-[44px] px-3 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-navy-800 transition-colors active:scale-95"
             >
               {t('support')}
             </Link>
@@ -100,12 +100,12 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
               <Link
                 href="/pricing"
                 onClick={closeMenu}
-                className="flex items-center justify-center min-h-[44px] px-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium transition-colors active:scale-95"
+                className="flex items-center justify-center min-h-[44px] px-3 rounded-full bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 text-white text-sm font-medium transition-all active:scale-95"
               >
                 {t('getPro')}
               </Link>
             )}
-            <div className="flex items-center justify-between pt-3 border-t border-slate-200 dark:border-slate-800">
+            <div className="flex items-center justify-between pt-3 border-t border-slate-200 dark:border-navy-700">
               <LanguageSwitcher />
               <ThemeToggle />
             </div>

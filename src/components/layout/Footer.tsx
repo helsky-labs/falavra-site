@@ -8,7 +8,7 @@ export function Footer() {
   const t = useTranslations('footer')
 
   return (
-    <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200 dark:border-slate-800">
+    <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200 dark:border-navy-700">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <Image
@@ -24,7 +24,7 @@ export function Footer() {
               href="https://helsky-labs.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-amber-600 dark:text-amber-400 hover:underline"
+              className="text-brand dark:text-brand-light hover:underline"
             >
               Helsky Labs
             </a>

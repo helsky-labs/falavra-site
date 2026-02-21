@@ -49,7 +49,7 @@ export function CheckoutButton({ locale, label, loadingLabel, trustSecure, trust
       <button
         onClick={handleCheckout}
         disabled={loading}
-        className="block w-full text-center py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-700 disabled:bg-amber-400 text-white font-semibold transition-colors"
+        className="block w-full text-center py-3 px-4 rounded-xl bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 disabled:opacity-50 text-white font-semibold transition-all"
       >
         {loading ? (loadingLabel || "Loading...") : (label || "Get Pro License")}
       </button>

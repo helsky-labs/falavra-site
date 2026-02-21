@@ -70,12 +70,12 @@ export function NewsletterForm({
         }}
         placeholder={placeholder}
         required
-        className="flex-1 px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 dark:focus:ring-amber-400"
+        className="flex-1 px-4 py-3 rounded-xl border border-slate-300 dark:border-navy-700 bg-white dark:bg-navy-800 text-sm focus:outline-none focus:ring-2 focus:ring-brand dark:focus:ring-brand-light"
       />
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="px-6 py-3 rounded-xl bg-amber-600 hover:bg-amber-700 disabled:bg-amber-400 text-white font-medium text-sm transition-colors whitespace-nowrap"
+        className="px-6 py-3 rounded-xl bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 disabled:opacity-50 text-white font-medium text-sm transition-all whitespace-nowrap"
       >
         {status === "submitting" ? submittingLabel : buttonLabel}
       </button>

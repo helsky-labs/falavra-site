@@ -31,7 +31,7 @@ export function LanguageSwitcher() {
           disabled={isPending}
           className={`px-3 py-2 min-h-[44px] rounded transition-colors active:scale-95 ${
             locale === loc
-              ? "bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-medium"
+              ? "bg-brand/10 dark:bg-brand/20 text-brand dark:text-brand-light font-medium"
               : "text-slate-500 dark:text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
           } ${isPending ? "opacity-50 cursor-wait" : ""}`}
         >
