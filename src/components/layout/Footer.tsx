@@ -11,13 +11,6 @@ export function Footer() {
     <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200 dark:border-navy-700">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <Image
-            src="/icon.png"
-            alt="falavra"
-            width={24}
-            height={24}
-            className="rounded-md"
-          />
           <span className="text-sm text-slate-600 dark:text-slate-400 flex items-center gap-1.5">
             {t('builtBy')}{' '}
             <a
