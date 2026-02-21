@@ -102,7 +102,7 @@ export default async function PricingPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Free Tier */}
             <FadeIn delay={200}>
-              <div className="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 p-8">
+              <div className="rounded-2xl border border-slate-200 dark:border-navy-700 bg-white dark:bg-navy-800 p-8">
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">
                   {t("free.name")}
                 </h3>
@@ -117,7 +117,7 @@ export default async function PricingPage() {
                 </div>
                 <Link
                   href="/"
-                  className="block w-full text-center py-3 px-4 rounded-xl border border-slate-300 dark:border-slate-600 hover:border-slate-400 dark:hover:border-slate-500 font-medium transition-colors mb-8"
+                  className="block w-full text-center py-3 px-4 rounded-xl border border-slate-300 dark:border-navy-700 hover:border-slate-400 dark:hover:border-slate-500 font-medium transition-colors mb-8"
                 >
                   {t("free.downloadButton")}
                 </Link>
@@ -142,7 +142,7 @@ export default async function PricingPage() {
 
             {/* Pro Tier */}
             <FadeIn delay={300}>
-              <div className="relative rounded-2xl border-2 border-brand bg-white dark:bg-slate-800 p-8">
+              <div className="relative rounded-2xl border-2 border-brand bg-white dark:bg-navy-800 p-8">
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                   <span className="px-4 py-1 bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta text-white text-sm font-medium rounded-full">
                     {t("pro.badge")}
@@ -195,7 +195,7 @@ export default async function PricingPage() {
           <div className="grid md:grid-cols-3 gap-4">
             {(["t1", "t2", "t3"] as const).map((key, index) => (
               <FadeIn key={key} delay={index * 100}>
-                <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                <div className="p-4 rounded-xl bg-slate-50 dark:bg-navy-800 border border-slate-200 dark:border-navy-700">
                   <div className="flex gap-0.5 mb-2">
                     {[...Array(5)].map((_, i) => (
                       <svg key={i} className="w-3.5 h-3.5 text-brand" fill="currentColor" viewBox="0 0 20 20">
@@ -215,7 +215,7 @@ export default async function PricingPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-navy-800/50">
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl font-bold text-center mb-12">
@@ -225,7 +225,7 @@ export default async function PricingPage() {
           <div className="space-y-6">
             {faqs.map((faq, index) => (
               <FadeIn key={index} delay={index * 100}>
-                <div className="bg-white dark:bg-slate-800 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
+                <div className="bg-white dark:bg-navy-800 rounded-xl p-6 border border-slate-200 dark:border-navy-700">
                   <h3 className="font-semibold text-lg mb-2">{faq.question}</h3>
                   <p className="text-slate-600 dark:text-slate-400">
                     {faq.answer}

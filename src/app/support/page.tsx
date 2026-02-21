@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 function FaqItem({ question, answer }: { question: string; answer: string }) {
   return (
-    <div className="p-4 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700">
+    <div className="p-4 rounded-lg bg-white dark:bg-navy-800/50 border border-slate-200 dark:border-navy-700">
       <h4 className="font-medium mb-2">{question}</h4>
       <p className="text-sm text-slate-600 dark:text-slate-400">{answer}</p>
     </div>
@@ -40,7 +40,7 @@ export default async function SupportPage() {
             <div className="grid sm:grid-cols-2 gap-4">
               <a
                 href="mailto:support@falavra.com"
-                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
+                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-navy-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
               >
                 <div className="w-10 h-10 rounded-full bg-brand/10 dark:bg-brand/20 flex items-center justify-center flex-shrink-0">
                   <svg className="w-5 h-5 text-brand dark:text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,7 +55,7 @@ export default async function SupportPage() {
 
               <a
                 href="mailto:support@falavra.com?subject=Bug%20Report"
-                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
+                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-navy-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
               >
                 <div className="w-10 h-10 rounded-full bg-brand/10 dark:bg-brand/20 flex items-center justify-center flex-shrink-0">
                   <svg className="w-5 h-5 text-brand dark:text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -108,7 +108,7 @@ export default async function SupportPage() {
           </section>
 
           {/* Restore License */}
-          <section className="p-6 rounded-xl bg-slate-100 dark:bg-slate-800">
+          <section className="p-6 rounded-xl bg-slate-100 dark:bg-navy-800">
             <h2 className="text-lg font-semibold mb-2">{t("restore.title")}</h2>
             <p className="text-slate-600 dark:text-slate-400 mb-4">{t("restore.text")}</p>
             <Link

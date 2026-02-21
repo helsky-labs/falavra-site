@@ -77,7 +77,7 @@ export default function RestorePage() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder={t("emailPlaceholder")}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-shadow"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-navy-700 bg-white dark:bg-navy-800 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-shadow"
                   />
                 </div>
 

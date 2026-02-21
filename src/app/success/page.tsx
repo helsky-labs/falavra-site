@@ -46,7 +46,7 @@ export default async function SuccessPage() {
           </FadeIn>
 
           <FadeIn delay={300}>
-            <div className="bg-slate-100 dark:bg-slate-800 rounded-xl p-6 mb-8">
+            <div className="bg-slate-100 dark:bg-navy-800 rounded-xl p-6 mb-8">
               <h2 className="font-semibold text-lg mb-4">{t("activation.title")}</h2>
               <ol className="text-left text-slate-600 dark:text-slate-400 space-y-3">
                 <li className="flex gap-3">

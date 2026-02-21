@@ -154,7 +154,7 @@ export default async function LandingPage() {
 
         {/* App Preview */}
         <FadeIn delay={500} className="mt-16 max-w-4xl mx-auto">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700">
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-navy-700">
             <Image
               src="/screenshots/main.png"
               alt={t("preview.mainAlt")}
@@ -176,7 +176,7 @@ export default async function LandingPage() {
               { src: "/screenshots/settings.png", alt: t("preview.settingsAlt"), caption: t("preview.captionSettings") },
             ] as const).map((shot) => (
               <div key={shot.src} className="group">
-                <div className="rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-md transition-all group-hover:shadow-xl group-hover:scale-[1.02]">
+                <div className="rounded-xl overflow-hidden border border-slate-200 dark:border-navy-700 shadow-md transition-all group-hover:shadow-xl group-hover:scale-[1.02]">
                   <Image
                     src={shot.src}
                     alt={shot.alt}
@@ -195,7 +195,7 @@ export default async function LandingPage() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800/50">
+      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-navy-800/50">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
@@ -210,14 +210,14 @@ export default async function LandingPage() {
             {features.map((feature, index) => (
               <FadeIn key={feature.title} delay={index * 100}>
                 <div
-                  className={`relative p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border transition-all hover:shadow-lg hover:scale-[1.02] ${
+                  className={`relative p-6 rounded-2xl bg-slate-50 dark:bg-navy-800 border transition-all hover:shadow-lg hover:scale-[1.02] ${
                     feature.pro
                       ? "border-brand/30 dark:border-brand/20"
                       : feature.isNew
                       ? "border-green-200 dark:border-green-800"
                       : feature.popular
                       ? "border-brand/30 dark:border-brand/20"
-                      : "border-slate-200 dark:border-slate-700"
+                      : "border-slate-200 dark:border-navy-700"
                   }`}
                 >
                   {feature.pro ? (
@@ -286,7 +286,7 @@ export default async function LandingPage() {
       </section>
 
       {/* Why falavra Comparison */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-navy-800/50">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
@@ -300,7 +300,7 @@ export default async function LandingPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {(["privacyFirst", "oneTimePrice", "youtubeOptimized", "offlineCapable"] as const).map((key, index) => (
               <FadeIn key={key} delay={index * 100}>
-                <div className="p-6 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800">
+                <div className="p-6 rounded-2xl border border-slate-200 dark:border-navy-700 bg-slate-50 dark:bg-navy-800">
                   <h3 className="font-semibold text-lg mb-4">
                     {t(`comparison.${key}.title`)}
                   </h3>
@@ -358,7 +358,7 @@ export default async function LandingPage() {
       </section>
 
       {/* Privacy Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-navy-900 to-navy-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
             <div className="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-6">
@@ -410,7 +410,7 @@ export default async function LandingPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {(["t1", "t2", "t3"] as const).map((key, index) => (
               <FadeIn key={key} delay={index * 100}>
-                <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 h-full flex flex-col">
+                <div className="p-6 rounded-2xl bg-slate-50 dark:bg-navy-800 border border-slate-200 dark:border-navy-700 h-full flex flex-col">
                   <div className="flex gap-1 mb-4">
                     {[...Array(5)].map((_, i) => (
                       <svg key={i} className="w-4 h-4 text-brand" fill="currentColor" viewBox="0 0 20 20">
@@ -421,7 +421,7 @@ export default async function LandingPage() {
                   <p className="text-slate-600 dark:text-slate-400 text-sm flex-1 mb-4">
                     &ldquo;{t(`testimonials.${key}.quote`)}&rdquo;
                   </p>
-                  <div className="flex items-center gap-3 pt-4 border-t border-slate-200 dark:border-slate-700">
+                  <div className="flex items-center gap-3 pt-4 border-t border-slate-200 dark:border-navy-700">
                     <div className="w-10 h-10 rounded-full bg-brand/10 dark:bg-brand/20 flex items-center justify-center text-brand dark:text-brand-light font-semibold text-sm">
                       {t(`testimonials.${key}.initials`)}
                     </div>
@@ -438,7 +438,7 @@ export default async function LandingPage() {
       </section>
 
       {/* Compact Pricing Comparison */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-navy-800/50">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
@@ -452,7 +452,7 @@ export default async function LandingPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {/* Free Tier */}
             <FadeIn delay={100}>
-              <div className="p-8 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 h-full flex flex-col">
+              <div className="p-8 rounded-2xl border border-slate-200 dark:border-navy-700 bg-slate-50 dark:bg-navy-800 h-full flex flex-col">
                 <h3 className="font-semibold text-xl mb-2">{t("homePricing.free.name")}</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold">{t("homePricing.free.price")}</span>
@@ -471,7 +471,7 @@ export default async function LandingPage() {
                 <div className="mt-8">
                   <a
     
-                    className="block w-full text-center py-3 px-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 font-semibold transition-colors"
+                    className="block w-full text-center py-3 px-4 rounded-xl border border-slate-300 dark:border-navy-700 hover:border-slate-400 dark:hover:border-slate-600 font-semibold transition-colors"
                   >
                     {t("cta.downloadButton")}
                   </a>
@@ -481,7 +481,7 @@ export default async function LandingPage() {
 
             {/* Pro Tier */}
             <FadeIn delay={200}>
-              <div className="relative p-8 rounded-2xl border-2 border-brand bg-slate-50 dark:bg-slate-800 h-full flex flex-col">
+              <div className="relative p-8 rounded-2xl border-2 border-brand bg-slate-50 dark:bg-navy-800 h-full flex flex-col">
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 text-xs font-semibold bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta text-white rounded-full">
                   {t("homePricing.pro.badge")}
                 </span>
@@ -539,7 +539,7 @@ export default async function LandingPage() {
               <DownloadLink
 
                 location="cta"
-                className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-600 font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border border-slate-300 dark:border-navy-700 hover:border-slate-400 dark:hover:border-slate-600 font-medium transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -558,7 +558,7 @@ export default async function LandingPage() {
       </section>
 
       {/* Newsletter */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-800/50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-navy-800/50">
         <div className="max-w-2xl mx-auto text-center">
           <FadeIn>
             <div className="w-12 h-12 rounded-xl bg-brand/10 dark:bg-brand/20 flex items-center justify-center mx-auto mb-4">

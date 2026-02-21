@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col">
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800">
+      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-navy-900/80 border-b border-slate-200 dark:border-navy-700">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center gap-3">
@@ -32,7 +32,7 @@ export default function NotFound() {
         </div>
       </main>
 
-      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200 dark:border-slate-800">
+      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-slate-200 dark:border-navy-700">
         <div className="max-w-6xl mx-auto text-center">
           <span className="text-sm text-slate-500">
             &copy; {new Date().getFullYear()} falavra. All rights reserved.
