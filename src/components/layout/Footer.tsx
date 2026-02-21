@@ -18,14 +18,28 @@ export function Footer() {
             height={24}
             className="rounded-md"
           />
-          <span className="text-sm text-slate-600 dark:text-slate-400">
+          <span className="text-sm text-slate-600 dark:text-slate-400 flex items-center gap-1.5">
             {t('builtBy')}{' '}
             <a
               href="https://helsky-labs.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand dark:text-brand-light hover:underline"
+              className="inline-flex items-center gap-1 text-brand dark:text-brand-light hover:underline"
             >
+              <Image
+                src="/helsky-mark-dark.png"
+                alt=""
+                width={16}
+                height={16}
+                className="dark:hidden"
+              />
+              <Image
+                src="/helsky-mark-white.png"
+                alt=""
+                width={16}
+                height={16}
+                className="hidden dark:inline-block"
+              />
               Helsky Labs
             </a>
           </span>
