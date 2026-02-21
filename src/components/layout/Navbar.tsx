@@ -23,7 +23,7 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
+          <Link href="/" className="flex items-center gap-2.5" onClick={closeMenu}>
             <Image
               src="/icon.png"
               alt="falavra"
@@ -31,7 +31,9 @@ export function Navbar({ showPricing = true, showGetPro = true }: NavbarProps) {
               height={32}
               className="rounded-lg"
             />
-            <span className="font-semibold text-lg">falavra</span>
+            <span className="text-lg font-semibold bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta bg-clip-text text-transparent">
+              falavra
+            </span>
           </Link>
 
           {/* Desktop nav */}

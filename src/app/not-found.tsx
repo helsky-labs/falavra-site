@@ -7,9 +7,11 @@ export default function NotFound() {
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-slate-50/80 dark:bg-navy-900/80 border-b border-slate-200 dark:border-navy-700">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-3">
+            <Link href="/" className="flex items-center gap-2.5">
               <Image src="/icon.png" alt="falavra" width={32} height={32} className="rounded-lg" />
-              <span className="font-semibold text-lg">falavra</span>
+              <span className="text-lg font-semibold bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta bg-clip-text text-transparent">
+                falavra
+              </span>
             </Link>
           </div>
         </div>
