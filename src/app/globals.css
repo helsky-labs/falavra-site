@@ -3,6 +3,14 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-brand: #FF9921;
+  --color-brand-light: #FF7628;
+  --color-brand-lighter: #FFAE4D;
+  --color-brand-magenta: #FB0077;
+  --color-navy-900: #070944;
+  --color-navy-800: #0C0E52;
+  --color-navy-700: #131668;
 }
 
 /* Smooth scrolling */
