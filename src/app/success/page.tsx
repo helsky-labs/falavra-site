@@ -50,13 +50,13 @@ export default async function SuccessPage() {
               <h2 className="font-semibold text-lg mb-4">{t("activation.title")}</h2>
               <ol className="text-left text-slate-600 dark:text-slate-400 space-y-3">
                 <li className="flex gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 text-sm font-medium flex items-center justify-center">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 dark:bg-brand/20 text-brand dark:text-brand-light text-sm font-medium flex items-center justify-center">
                     1
                   </span>
                   <span>{t("activation.step1")}</span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 text-sm font-medium flex items-center justify-center">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 dark:bg-brand/20 text-brand dark:text-brand-light text-sm font-medium flex items-center justify-center">
                     2
                   </span>
                   <span>
@@ -65,7 +65,7 @@ export default async function SuccessPage() {
                   </span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-amber-100 dark:bg-amber-900/50 text-amber-600 dark:text-amber-400 text-sm font-medium flex items-center justify-center">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-brand/10 dark:bg-brand/20 text-brand dark:text-brand-light text-sm font-medium flex items-center justify-center">
                     3
                   </span>
                   <span>{t("activation.step3")}</span>
@@ -78,11 +78,11 @@ export default async function SuccessPage() {
             <div className="space-y-4">
               <p className="text-sm text-slate-500">
                 {t("noEmail")}{" "}
-                <Link href="/restore" className="text-amber-600 dark:text-amber-400 hover:underline">
+                <Link href="/restore" className="text-brand dark:text-brand-light hover:underline">
                   {t("restoreLink")}
                 </Link>
                 {" "}&middot;{" "}
-                <Link href="/support" className="text-amber-600 dark:text-amber-400 hover:underline">
+                <Link href="/support" className="text-brand dark:text-brand-light hover:underline">
                   {t("helpLink")}
                 </Link>
               </p>

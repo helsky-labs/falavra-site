@@ -79,7 +79,7 @@ export default async function PrivacyPage() {
               <h2 className="text-xl font-semibold mb-3">{t("contact.title")}</h2>
               <p className="text-slate-600 dark:text-slate-400">
                 {t("contact.text")}{" "}
-                <a href="mailto:support@falavra.com" className="text-amber-600 dark:text-amber-400 hover:underline">
+                <a href="mailto:support@falavra.com" className="text-brand dark:text-brand-light hover:underline">
                   support@falavra.com
                 </a>
               </p>

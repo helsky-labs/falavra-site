@@ -54,7 +54,7 @@ export default function RestorePage() {
               </div>
               <h2 className="text-2xl font-bold mb-4">{t("success.title")}</h2>
               <p className="text-slate-600 dark:text-slate-400 mb-8">{t("success.text")}</p>
-              <Link href="/" className="text-amber-600 dark:text-amber-400 hover:underline">
+              <Link href="/" className="text-brand dark:text-brand-light hover:underline">
                 {t("success.backHome")}
               </Link>
             </div>
@@ -77,7 +77,7 @@ export default function RestorePage() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder={t("emailPlaceholder")}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-shadow"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition-shadow"
                   />
                 </div>
 
@@ -88,7 +88,7 @@ export default function RestorePage() {
                 <button
                   type="submit"
                   disabled={isSubmitting || !email}
-                  className="w-full px-4 py-3 rounded-lg bg-amber-600 hover:bg-amber-700 disabled:bg-amber-400 text-white font-semibold transition-colors"
+                  className="w-full px-4 py-3 rounded-lg bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 disabled:opacity-50 text-white font-semibold transition-colors"
                 >
                   {isSubmitting ? t("submitting") : t("submit")}
                 </button>

@@ -40,10 +40,10 @@ export default async function SupportPage() {
             <div className="grid sm:grid-cols-2 gap-4">
               <a
                 href="mailto:support@falavra.com"
-                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-amber-200 dark:hover:border-amber-800 transition-colors"
+                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
               >
-                <div className="w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-10 h-10 rounded-full bg-brand/10 dark:bg-brand/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-brand dark:text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
@@ -55,10 +55,10 @@ export default async function SupportPage() {
 
               <a
                 href="mailto:support@falavra.com?subject=Bug%20Report"
-                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-amber-200 dark:hover:border-amber-800 transition-colors"
+                className="flex items-start gap-4 p-6 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-brand/30 dark:hover:border-brand/20 transition-colors"
               >
-                <div className="w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-10 h-10 rounded-full bg-brand/10 dark:bg-brand/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-brand dark:text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
@@ -75,7 +75,7 @@ export default async function SupportPage() {
             <h2 className="text-2xl font-bold mb-6">{t("faq.title")}</h2>
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-400">{t("faq.common.title")}</h3>
+                <h3 className="text-lg font-semibold mb-4 text-brand dark:text-brand-light">{t("faq.common.title")}</h3>
                 <div className="space-y-4">
                   <FaqItem question={t("faq.common.modelDownload.q")} answer={t("faq.common.modelDownload.a")} />
                   <FaqItem question={t("faq.common.accuracy.q")} answer={t("faq.common.accuracy.a")} />
@@ -85,7 +85,7 @@ export default async function SupportPage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-400">{t("faq.license.title")}</h3>
+                <h3 className="text-lg font-semibold mb-4 text-brand dark:text-brand-light">{t("faq.license.title")}</h3>
                 <div className="space-y-4">
                   <FaqItem question={t("faq.license.free.q")} answer={t("faq.license.free.a")} />
                   <FaqItem question={t("faq.license.activate.q")} answer={t("faq.license.activate.a")} />
@@ -96,7 +96,7 @@ export default async function SupportPage() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-400">{t("faq.technical.title")}</h3>
+                <h3 className="text-lg font-semibold mb-4 text-brand dark:text-brand-light">{t("faq.technical.title")}</h3>
                 <div className="space-y-4">
                   <FaqItem question={t("faq.technical.requirements.q")} answer={t("faq.technical.requirements.a")} />
                   <FaqItem question={t("faq.technical.storage.q")} answer={t("faq.technical.storage.a")} />
@@ -113,7 +113,7 @@ export default async function SupportPage() {
             <p className="text-slate-600 dark:text-slate-400 mb-4">{t("restore.text")}</p>
             <Link
               href="/restore"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-medium text-sm transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-brand via-[#FF3645] to-brand-magenta hover:opacity-90 text-white font-medium text-sm transition-colors"
             >
               {t("restore.button")}
             </Link>

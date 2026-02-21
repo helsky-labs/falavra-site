@@ -83,7 +83,7 @@ export default function TermsPage() {
                 We offer a 14-day money-back guarantee from the date of
                 purchase. If you are not satisfied with falavra Pro for any
                 reason, you may request a full refund by contacting us at{" "}
-                <a href="mailto:support@falavra.com" className="text-amber-600 dark:text-amber-400 hover:underline">
+                <a href="mailto:support@falavra.com" className="text-brand dark:text-brand-light hover:underline">
                   support@falavra.com
                 </a>{" "}
                 within 14 days of your purchase. Refunds are processed through
@@ -162,7 +162,7 @@ export default function TermsPage() {
               <h2 className="text-xl font-semibold mb-3">12. Contact</h2>
               <p className="text-slate-600 dark:text-slate-400">
                 If you have questions about these Terms, contact us at{" "}
-                <a href="mailto:support@falavra.com" className="text-amber-600 dark:text-amber-400 hover:underline">
+                <a href="mailto:support@falavra.com" className="text-brand dark:text-brand-light hover:underline">
                   support@falavra.com
                 </a>.
               </p>
